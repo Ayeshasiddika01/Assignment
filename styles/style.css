@@ -35,7 +35,7 @@ nav {
 .banner {
     display: flex;
     background-image: url("../assets/Hero-bg.png");
-    height: 652px;
+    /* height: 652px; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
