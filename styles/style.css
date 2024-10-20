@@ -98,7 +98,9 @@ nav {
     padding-top: 80px;
 }
 
-.Development-description, .Inspiration-description {
+.Development-description,
+.Inspiration-description,
+.target-description {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -150,31 +152,153 @@ img {
     justify-content: left;
     gap: 32px;
 }
+
 /* Inspiration-section */
-.Inspiration{
-    display:flex;
+.Inspiration,
+.target {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
+
+
 }
-.Inspiration-title{
+
+.Inspiration-title,
+.target-title {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
     text-align: center;
-    
+
 }
-iframe{
-    
+
+iframe {
+
     margin-top: 48px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    width:1076px;
-    height:550px;
+    width: 1076px;
+    height: 550px;
     padding: 32px;
-    
-    
+
+
+}
+
+/* My Current Target */
+.target {
+    margin-top: 151px;
+}
+
+.target-container {
+    display: flex;
+    margin-top: 48px;
+    gap: 24px;
+}
+
+.target-img {
+    width: 40px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+.html,
+.css,
+.JavaScript {
+    width: 364px;
+    padding: 40px;
+}
+
+.title {
+    color: rgb(13, 19, 33);
+
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+
+}
+
+.description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+
+}
+
+a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.html {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.JavaScript {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* I need Support */
+.support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 80px 150px;
+    /* height: 313px; */
+    padding: 64px 48px;
+}
+
+.support-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.support-description {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+
+input {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    width: 548px;
+    /* height: 57px; */
+    padding: 20px;
+
+}
+
+.submit {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 57px;
+    border: none;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 }
